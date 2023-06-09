@@ -1,0 +1,64 @@
+{
+  "name": "all-wallet-connectors",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^3.5.3",
+    "@ethersproject/experimental": "^5.7.0",
+    "@ethersproject/providers": "^5.7.1",
+    "@portis/web3": "^4.0.7",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/styled-components": "^5.1.26",
+    "@walletconnect/ethereum-provider": "1.7.5",
+    "@web3-react/coinbase-wallet": "8.0.34-beta.0",
+    "@web3-react/core": "8.0.35-beta.0",
+    "@web3-react/gnosis-safe": "8.0.6-beta.0",
+    "@web3-react/metamask": "8.0.28-beta.0",
+    "@web3-react/network": "8.0.27-beta.0",
+    "@web3-react/types": "8.0.20-beta.0",
+    "@web3-react/walletconnect": "8.0.35-beta.0",
+    "bitski": "^3.2.0",
+    "fortmatic": "^2.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0",
+    "web3-react-bitski": "^1.0.0",
+    "web3-react-fortmatic": "^1.0.6",
+    "web3-react-portis": "1.0.4",
+    "web3-react-torus": "^1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
